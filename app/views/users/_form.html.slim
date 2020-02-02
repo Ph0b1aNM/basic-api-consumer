@@ -1,0 +1,17 @@
+= form_tag users_path , method: :post do |f|
+  | Name: 
+  br/
+  input name="name" type="text" /
+  | Email: 
+  br/
+  input name="email" type="text" /
+  | Password: 
+  br/
+  input name="password" type="password" /
+  br/
+  | Password Confirmation:
+  br/
+  input name="password_confirmation" type="password" /
+  br/
+  br/
+  input type="submit" value="submit" /
